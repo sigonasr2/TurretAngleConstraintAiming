@@ -143,34 +143,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="miniaudio.h" />
-    <ClInclude Include="miniaudio_libvorbis.h" />
-    <ClInclude Include="olcPGEX_Gamepad.h" />
-    <ClInclude Include="olcPGEX_Graphics3D.h" />
-    <ClInclude Include="olcPGEX_MiniAudio.h" />
-    <ClInclude Include="olcPGEX_QuickGUI.h" />
-    <ClInclude Include="olcPGEX_TTF.h" />
-    <ClInclude Include="olcPGEX_ViewPort.h" />
-    <ClInclude Include="olcPixelGameEngine.h" />
-    <ClInclude Include="olcPixelGameEngine_clean.h" />
-    <ClInclude Include="olcSoundWaveEngine.h" />
-    <ClInclude Include="olcSoundWaveEngine_pause.h" />
-    <ClInclude Include="olcUTIL_DataFile.h" />
-    <ClInclude Include="olcUTIL_Geometry2D.h" />
-    <ClInclude Include="safemap.h" />
-    <ClInclude Include="shade_shader.h" />
-    <ClInclude Include="shared.h" />
-    <ClInclude Include="stb_vorbis.h" />
-    <ClInclude Include="test.h" />
-    <ClInclude Include="vec2d.h" />
-    <ClInclude Include="ViewPort.h" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="pge.cpp">
-      <SubType>
-      </SubType>
-    </ClCompile>
+    <ClInclude Include="olcPixelGameEngine.h" />
+    <ClInclude Include="olcUTIL_Geometry2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
